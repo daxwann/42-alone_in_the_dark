@@ -1,0 +1,59 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z4r6p15.42.us.org
+Darwin 17.5.0 x86_64
+$> date
+Tue Dec 11 10:38:58 PST 2018
+$> gcc --version
+Configured with: --prefix=/Library/Developer/CommandLineTools/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+$> clang --version
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
+Target: x86_64-apple-darwin17.5.0
+Thread model: posix
+InstalledDir: /Library/Developer/CommandLineTools/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2018/c-exam-alone-in-the-dark-beginner/exam_20181211/xwang
+
+= Git history ==================================================================
+$> git -C /var/folders/6j/1jj70zr90zq2ghhvb_ltwlfm0000gp/T/tmpY6H9wT/user log --pretty='%H - %an, %ad : %s'
+74ceda7de079516d693e15e4b6f0a75344ef6660 - Exam 42, Tue Dec 11 10:38:48 2018 -0800 : ex02
+672fc8e55d12538be72457c0fc62f735b58155b0 - Exam 42, Tue Dec 11 10:21:40 2018 -0800 : ex01
+e6647c57d62b5e50426a45f91b11c538153f4114 - Exam 42, Tue Dec 11 10:05:43 2018 -0800 : ex00
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/6j/1jj70zr90zq2ghhvb_ltwlfm0000gp/T/tmpY6H9wT/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  701 Dec 11 10:38 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Dec 11 10:38 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought  102 Dec 11 10:38 repeat_alpha
+drwxr-xr-x  3 deepthought  deepthought  102 Dec 11 10:38 swap_bits
+
+/var/folders/6j/1jj70zr90zq2ghhvb_ltwlfm0000gp/T/tmpY6H9wT/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1160 Dec 11 10:38 maff_alpha.c
+
+/var/folders/6j/1jj70zr90zq2ghhvb_ltwlfm0000gp/T/tmpY6H9wT/user/repeat_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1358 Dec 11 10:38 repeat_alpha.c
+
+/var/folders/6j/1jj70zr90zq2ghhvb_ltwlfm0000gp/T/tmpY6H9wT/user/swap_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  976 Dec 11 10:38 swap_bits.c
+ 
+= swap_bits ====================================================================
+$> gcc -Wextra -Wall -Werror main.c swap_bits.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./vnqxf3aq7wrdmleyvbnecgfq
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
