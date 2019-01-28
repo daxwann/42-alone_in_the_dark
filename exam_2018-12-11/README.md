@@ -1,8 +1,11 @@
 # "C Exam Alone In The Dark - Beginner" on 11/12/2018 17:55:31
 
 Start time: 11/12/2018 17:55:31 UTC
+
 End time: 11/12/2018 20:38:16 UTC
+
 Mode: real
+
 ### Final grade: 100/100
 
 ## Assignments:
