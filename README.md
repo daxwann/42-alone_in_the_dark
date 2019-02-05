@@ -8,6 +8,8 @@ In-person exam Les examens machine permettent de vérifier vos acquis lorsque vo
 
 ## Grades
 
+* C Exam on 02/05/2019 : 80/100
+* C Exam on 01/29/2019 : 80/100
 * C Exam on 11/12/2018 : 100/100
 * C Exam on 10/30/2018 : 59/100
 * C Exam on 10/02/2018 : 100/100 
